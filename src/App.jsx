@@ -136,7 +136,7 @@ function WelcomeScreen({ setView }) {
   return (
     <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
       <div className="text-center mb-12">
-        <h1 className="text-5xl md:text-6xl font-extrabold text-white tracking-tight">Confidence Wager</h1>
+        <h1 className="text-5xl md:text-6xl font-extrabold text-white tracking-tight">Split Game</h1>
         <p className="text-lg md:text-xl text-blue-400 mt-2">The game of bold guesses and risky bets</p>
       </div>
       <div className="flex flex-col md:flex-row gap-6 w-full max-w-md">
@@ -483,7 +483,7 @@ function PlayerView({ user, paths }) {
       <div className="w-full max-w-lg mx-auto">
         <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
           <div className="flex justify-between items-center mb-6">
-            <h1 className="text-2xl font-bold text-blue-400">Confidence Wager</h1>
+            <h1 className="text-2xl font-bold text-blue-400">Split Game</h1>
             <div className="text-right"><p className="font-semibold text-lg">{playerName}</p><p className="text-sm text-gray-400">Question {gameState?.round || 0} of {gameState?.playlistLength || '...'}</p></div>
           </div>
 
